@@ -1,0 +1,60 @@
+[
+  {
+    "name": "GetIntent App",
+    "url": "https://getintent.ai",
+    "icon": "https://icons.duckduckgo.com/ip3/getintent.ai.ico",
+    "slug": "get-intent-app",
+    "status": "down",
+    "uptime": "2.87%",
+    "uptimeDay": "2.87%",
+    "uptimeWeek": "2.87%",
+    "uptimeMonth": "2.87%",
+    "uptimeYear": "2.87%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2026-01-14": 0
+    }
+  },
+  {
+    "name": "GetIntent API",
+    "url": "https://getintent.ai/api/health",
+    "icon": "https://icons.duckduckgo.com/ip3/getintent.ai.ico",
+    "slug": "get-intent-api",
+    "status": "down",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2026-01-14": 0
+    }
+  },
+  {
+    "name": "GetIntent Dashboard",
+    "url": "https://getintent.ai/dashboard",
+    "icon": "https://icons.duckduckgo.com/ip3/getintent.ai.ico",
+    "slug": "get-intent-dashboard",
+    "status": "down",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {}
+  }
+]
