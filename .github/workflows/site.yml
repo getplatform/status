@@ -6,12 +6,18 @@ on:
   push:
     branches:
       - main
+  repository_dispatch:
+    types: [static-site]
+
+permissions:
+  contents: write
+  pages: write
 
 jobs:
   site:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: upptime/status-page@v1.36.2
+      - uses: upptime/status-page@v1.17.0
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
