@@ -2,16 +2,26 @@ name: Graphs CI
 on:
   schedule:
     - cron: "0 0 * * *"
+  repository_dispatch:
+    types: [graphs]
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  graphs:
+  release:
+    name: Generate graphs
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: upptime/graphs@v1.2.18
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          token: ${{ github.token }}
+      - name: Generate graphs
+        uses: upptime/uptime-monitor@v1.41.0
+        with:
+          command: "graphs"
         env:
-          GH_PAT: ${{ secrets.GITHUB_TOKEN }}
+          GH_PAT: ${{ github.token }}
