@@ -1,0 +1,58 @@
+# GetIntent Status Page - Powered by Upptime
+# Documentation: https://upptime.js.org
+
+owner: getplatform
+repo: status
+
+# Sites to monitor
+sites:
+  - name: GetIntent App
+    url: https://getintent.ai
+  - name: GetIntent API
+    url: https://getintent.ai/api/health
+  - name: GetIntent Dashboard
+    url: https://getintent.ai/dashboard
+    method: HEAD
+
+# Status page configuration
+status-website:
+  cname: status.getintent.co
+  logoUrl: https://getintent.ai/logo/icon-primary.svg
+  name: GetIntent Status
+  introTitle: "**GetIntent** is currently operational"
+  introMessage: This page provides real-time status information for GetIntent services.
+  navbar:
+    - title: Status
+      href: /
+    - title: GetIntent
+      href: https://getintent.ai
+
+# Branding
+i18n:
+  activeIncidents: Active incidents
+  allSystemsOperational: All systems operational
+  incidentReport: "Incident report for {0}"
+  incidentDetails: Incident details
+  pastIncidents: Past incidents
+  scheduledMaintenance: Scheduled maintenance
+  overallUptime: "{0} uptime"
+  lastUpdated: "Last updated {0}"
+  liveStatus: Live status
+  responseTime: Response time
+  ms: ms
+
+# Notifications (optional - can be configured later)
+# notifications:
+#   - type: slack
+#     channel: status
+
+# Assignees for issues
+assignees:
+  - hatlem
+
+# Commit settings
+commitMessages:
+  readmeContent: ":robot: Update README content"
+  summaryJson: ":robot: Update status summary"
+  statusChange: "$SITE_NAME is $STATUS"
+  graphsUpdate: ":robot: Update response time graphs"
