@@ -13,5 +13,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: upptime/graphs@v1.2.18
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          GH_PAT: ${{ secrets.GITHUB_TOKEN }}
