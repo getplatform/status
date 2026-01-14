@@ -16,7 +16,8 @@ sites:
 
 # Status page configuration
 status-website:
-  cname: status.getintent.co
+  # cname: status.getintent.co  # Uncomment after DNS is configured
+  baseUrl: /status
   logoUrl: https://getintent.ai/logo/icon-primary.svg
   name: GetIntent Status
   introTitle: "**GetIntent** is currently operational"
